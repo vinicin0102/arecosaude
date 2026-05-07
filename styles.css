@@ -152,32 +152,6 @@ section { position:relative; z-index:1; }
 .hero-bg-glow.g1 { top:-200px; right:-100px; background:#7c3aed; }
 .hero-bg-glow.g2 { bottom:-200px; left:-100px; background:#22d3ee; }
 
-/* ========== PARCEIROS ========== */
-.partners {
-  padding: 3rem 2rem 1rem;
-  text-align: center;
-  position: relative;
-  z-index: 5;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.partners-img {
-  width: 100% !important;
-  min-width: 1000px !important;
-  max-width: 1200px !important;
-  height: auto !important;
-  border-radius: 12px;
-  /* Transformando o Laranja original em Azul/Cyan Escuro para combinar com o site! */
-  filter: hue-rotate(175deg) brightness(0.7) saturate(0.8) contrast(1.1);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  transition: filter 0.4s ease, transform 0.4s ease;
-}
-.partners-img:hover {
-  filter: hue-rotate(175deg) brightness(1) saturate(1) contrast(1.1);
-  transform: translateY(-5px);
-}
-
 .hero-content {
   max-width:1200px; margin:0 auto; width:100%;
   display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:center;

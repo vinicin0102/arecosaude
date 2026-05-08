@@ -71,7 +71,7 @@ body::after {
   text-decoration:none;
 }
 .logo-img {
-  height: 300px;
+  height: 80px;
   width: auto;
   object-fit: contain;
   max-width: 100%;
@@ -141,7 +141,7 @@ section { position:relative; z-index:1; }
 /* ========== HERO ========== */
 .hero {
   min-height:100vh; display:flex; align-items:center;
-  padding:8rem 2rem 4rem;
+  padding:10rem 2rem 4rem;
   position:relative; overflow:hidden;
   background: linear-gradient(to right, rgba(10,14,26,0.95) 0%, rgba(10,14,26,0.5) 100%), url('images/hero-bg.jpg') center/cover no-repeat;
 }
@@ -471,7 +471,7 @@ section { position:relative; z-index:1; }
   .hamburger { display:flex; }
   .hero-text h1 { font-size:2.25rem; }
   .section-title { font-size:2rem; }
-  .logo-img { height: 100px !important; }
+  .logo-img { height: 80px !important; }
   .header { padding: 1rem; }
   .hero { padding-top: 10rem; }
   .services-grid { grid-template-columns:repeat(2, 1fr); gap: 1rem; }

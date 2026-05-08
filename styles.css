@@ -71,12 +71,10 @@ body::after {
   text-decoration:none;
 }
 .logo-img {
-  height: 80px;
+  height: 60px;
   width: auto;
   object-fit: contain;
   max-width: 100%;
-  transform: scale(5);
-  transform-origin: left center;
 }
 .nav { display:flex; align-items:center; gap:2rem; }
 .nav a {

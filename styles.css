@@ -277,7 +277,7 @@ section { position:relative; z-index:1; }
 
 /* ========== SERVICES ========== */
 .services { padding:6rem 0; background:var(--dark-2); }
-.services-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; }
+.services-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.5rem; }
 .service-card {
   background:var(--glass); border:1px solid var(--glass-border);
   border-radius:20px; padding:2rem; transition:all .4s;
